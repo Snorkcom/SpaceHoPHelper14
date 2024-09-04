@@ -10649,7 +10649,7 @@
                 var inputText = document.getElementById('station-number').value;
 
                 // Первая часть паттерна, тут можно добавить вашу карту
-                var part1Pattern = new RegExp("(Atlas|TestTeg|Fland|Maus|Delta|Avrite|Paper|Silly|Meta|Packed|Gate|Gelta|Cluster|Omega|Astra|Bagel|Origin|CentComm|Outpost|Ishimura|NukieOutpost|Box|Europa|Spectrum|Saltern|Core|Marathon|MeteorArena|Atlas|Reach|Train|Oasis|Pillar|Aspid|Barratry|Gemini|Lighthouse|Moose|Split)", "i");
+                var part1Pattern = new RegExp("(Atlas|TestTeg|Fland|Maus|Delta|Avrite|Paper|Silly|Meta|Packed|Gate|Gelta|Cluster|Omega|Astra|Bagel|Origin|CentComm|Outpost|Ishimura|NukieOutpost|Box|Europa|Spectrum|Saltern|Core|Marathon|MeteorArena|Atlas|Reach|Train|Oasis|Pillar|Aspid|Barratry|Gemini|Lighthouse|Moose|Split|Мэйхен|Пэйбэк|Тушканчик|Гельта|Маус|Дельта|Пилигрим|Фрейм|Астра|Терра)", "i");
                 var part1Match = inputText.match(part1Pattern);
                 var part1 = part1Match ? part1Match[0] : 'Station';
 
