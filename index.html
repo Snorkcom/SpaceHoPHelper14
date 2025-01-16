@@ -10834,7 +10834,7 @@
                 var inputText = document.getElementById('station-number').value;
 
                 // Первая часть паттерна, тут можно добавить вашу карту
-                var part1Pattern = new RegExp("(Atlas|TestTeg|Fland|Frame|Maus|Orion|Gelta|Delta|Avrite|Paper|Silly|Meta|Packed|Gate|Cluster|Omega|Astra|Bagel|Pilgrim|Origin|CentComm|Outpost|Ishimura|NukieOutpost|Box|Europa|Spectrum|Saltern|Core|Marathon|MeteorArena|Atlas|Reach|Train|Oasis|Pillar|Aspid|Barratry|Gemini|Lighthouse|Moose|Split|Мэйхен|Пэйбэк|Pearl|Тушканчик|Гельта|Маус|Дельта|Пилигрим|Фрейм|Астра|Терра|Эмбер)", "i");
+                var part1Pattern = new RegExp("(Atlas|TestTeg|Fland|Frame|Maus|Orion|Gelta|Delta|Avrite|Paper|Silly|Meta|Packed|Gate|Cluster|Omega|Astra|Bagel|Pilgrim|Origin|CentComm|Outpost|Ishimura|NukieOutpost|Box|Europa|Spectrum|Saltern|Core|Marathon|MeteorArena|Atlas|Reach|Train|Oasis|Pillar|Aspid|Barratry|Gemini|Lighthouse|Moose|Split|Мэйхен|Пэйбэк|Pearl|Тушканчик|Гельта|Маус|Дельта|Пилигрим|Фрейм|Астра|Терра|Эмбер|Аврит|Авесом|Кьют|Ишимура|Аутпост|Пейпер|Пёрл|Силли|Амбер|Багель|Бокс|Марафон|Омега|Пакет|Eclipse|Frankenstein|Axioma|Donuts|Astro)", "i");
                 var part1Match = inputText.match(part1Pattern);
                 var part1 = part1Match ? part1Match[0] : 'Station';
 
